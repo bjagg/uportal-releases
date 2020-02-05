@@ -9,6 +9,7 @@ FIXME: description
 
 ```clj
 {:dev {:env {:github-token "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}}}
+```
 
 ## Usage
 
