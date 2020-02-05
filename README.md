@@ -4,13 +4,15 @@ FIXME: description
 
 ## Installation
 
-Download from http://example.com/FIXME.
+1. Create `profiles.clj` in project root directory
+2. Define `:github-token` with a valid GitHub user token that has access to uPortal repos
+
+```clj
+{:dev {:env {:github-token "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"}}}
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar uportal-releases-0.1.0-standalone.jar [args]
+    $ lein run
 
 ## Options
 
